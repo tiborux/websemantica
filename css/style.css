@@ -1,0 +1,51 @@
+.box{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.container{
+    min-height: 0;
+    width: 100vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: row nowrap;
+    margin:5px;
+    border-radius: 5px;
+    padding: 15px 5px;
+}
+
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+    background:white;
+    border:1px solid lightgrey;
+    border-radius:5px;
+    margin: 0 5px 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px -5px #333;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.name{
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    border:1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    color:black;
+    width: 200px;
+}
+.button:hover{
+    color:white;
+    background: rgb(13, 209, 7);
+    border-color:white;
+}
